@@ -1,0 +1,188 @@
+/* body{
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+
+
+/* discount header start  */
+
+.discount-container{
+    background-color: #04989E;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+ /* discount header end  */
+
+
+
+
+/* navigation bar start  */
+
+
+.full-container-navbar{
+    margin: 1rem auto 1.5rem auto;
+}
+.navbar-css{
+    background-color:rgba(100, 134, 136, 0.253);
+
+}
+.logo{
+    height: 48.62px; width: 144px;
+
+}
+.nav-item-css{
+    margin-top: 1rem;
+
+}
+.nav-item{
+     margin: 0 3rem 0 1rem;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+ul li a:hover{
+    color: #04989E;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.button-book{
+    background-color: #04989E;
+    margin-right: 4rem;
+    width: 150px;
+    height: 44px;
+    border-radius: 20px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.button-book:hover{
+    background-color: #04989E;
+    border: 1px solid  #04989E;
+    
+}
+
+
+
+
+/* about first container  */
+.img-heading {
+    display: flex;
+    margin-top: 8px;
+}
+
+.img-box {
+    outline: 2px solid red;
+    width: auto;
+    height: auto;
+    
+}
+
+.about-img {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    /* margin-top: 6rem; */
+    
+}
+
+.about-heading {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    margin-left: 3rem;
+}
+
+.about-column {
+    position: relative;
+    top: 4rem;
+    /* background-color: rgb(34, 29, 29, 0.5 ); */
+    border-radius: 30px;
+}
+
+.about-paragraph {
+    font-size: 16px;
+    color: rgb(2, 2, 2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    /* font-weight: 700; */
+    font-family: 'Montserrat';
+    margin: 2rem 6rem 2rem 0;
+
+}
+
+.explore {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background: #00C9DA;
+    border-radius: 30px;
+    width: 176px;
+    height: 56px;
+    color: white;
+}
+
+.explore:hover {
+    background-color: #04989E;
+    color: yellow;
+}
+
+.col-about-imgs {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.Rectangle {
+    position: relative;
+    width: 25rem;
+    opacity: 0.9;
+    margin: 1rem auto 1rem auto;
+}
+
+.vactor-2 {
+    position: absolute;
+    margin: 155px 0 0 -19px;
+}
+
+/* about first container end  */
+
+/* about second container */
+.box-about{
+    /* border: 10px solid  #04989E; */
+    border-style:ridge;
+    margin-top: 4rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    /* background-color: #d3f1f5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .first-paragraph{
+
+    width: 50vw;
+    display: flex ;
+    flex-direction: column;
+  }
+/* about second container  */
+
+/* footer css start  */
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer css end  */

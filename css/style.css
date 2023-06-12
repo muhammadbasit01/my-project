@@ -1,0 +1,652 @@
+.first-body {
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute; */
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* @media only screen and (max-width: 990px) {
+    .first-body {
+        height: 125vh;
+    }
+
+} */
+
+/* discount header start  */
+
+.discount-container {
+    background-color: #04989E;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* discount header end  */
+
+
+
+
+/* navigation bar start  */
+
+
+.full-container-navbar {
+    margin: 1rem auto 1.5rem auto;
+
+}
+
+.navbar-css {
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 0;
+
+
+}
+
+.logo {
+    height: 48.62px;
+    width: 144px;
+
+}
+
+.nav-item-css {
+    margin-top: 1rem;
+
+}
+
+.nav-item {
+    margin: 0 3rem 0 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+ul li a:hover {
+    color: #04989E;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.book-tutor {
+    background-color: #04989E;
+    margin-right: 4rem;
+    width: 150px;
+    height: 44px;
+    border-radius: 30px;
+    border: none;
+    
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.book-tutor a:hover {
+    color: yellow;
+    
+}
+
+
+/* front page first container css start  */
+.full-box {
+    margin-top: 12rem;
+    border: 15px solid gold;
+    width: 265px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+@media only screen and (max-width: 990px) {
+    .full-box {
+        margin-top: 1rem;
+    }
+}
+
+.box-video {
+    position: relative;
+    left: 2rem;
+}
+
+@media only screen and (max-width: 990px) {
+    .box-video {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+}
+
+.p-work{
+    font-size: 24px ;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif ;
+    color: white;
+    margin: 1rem 0 0 2rem ;
+    font-style: normal;
+}
+@media screen and (max-width: 990px) {
+    .box-video {
+        order: 3;
+    }
+
+    .full-big-col {
+        order: 1;
+    }
+
+    .two-img {
+        order: 2;
+        margin-top: 2rem;
+    }
+}
+
+.video-box {
+    width: 235px;
+    height: 155px;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.heading {
+    font-size: 64px;
+    color: black;
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+.text-mar {
+    margin: 2rem 3rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.span-color {
+    color: #00C9DA;
+}
+
+.two-img {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register-btnn {
+    width: 178px;
+    height: 56px;
+    background-color: #00C9DA;
+    border-radius: 30px;
+}
+
+.register-btnn:hover {
+    background-color: #04989E;
+    border: 1px solid #04989E;
+    color: yellow;
+}
+
+.learn-more-btnn {
+    width: 178px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.learn-more-btnn:hover {
+    background-color: #04989E;
+    border: 1px solid #04989E;
+    color: yellow;
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    .two-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 6rem;
+}
+
+/* front page first container css end  */
+
+
+
+
+/* like footer start  */
+.green-container {
+    position: relative;
+    /* width: 100%; */
+    /* height: 250px;  */
+    margin-top: 10rem;
+
+}
+
+.vactor-img {
+    position: absolute;
+    bottom: 0;
+    right: 12rem;
+    /* use "left" instead if you want to align the image at the left end  */
+    /* margin-bottom: 7rem; */
+}
+
+/* @media only screen and (max-width: 990px) {
+    .vactor-img {
+        right: 0rem;
+        margin-top: 0;
+    }
+} */
+
+.color-foot {
+    background-color: #00C9DA;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 150px;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.col-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-anchor {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.span-item {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 990px) {
+    .color-foot {
+        background-color: #00C9DA;
+        position: relative;
+        height: 150px;
+        margin-top: 7rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* like footer end  */
+
+
+
+
+
+/* about first container  */
+.img-heading {
+    display: flex;
+   
+}
+
+.img-box {
+    outline: 2px solid red;
+    width: auto;
+    height: auto;
+
+}
+
+.about-img {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    /* margin-top: 6rem; */
+
+}
+
+.about-heading {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    margin-left: 3rem;
+}
+
+.about-column {
+    position: relative;
+    top: 6rem;
+}
+
+.about-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    margin: 2rem 6rem 2rem 0;
+
+}
+
+.explore {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background: #00C9DA;
+    border-radius: 30px;
+    width: 176px;
+    height: 56px;
+    color: white;
+}
+
+.explore:hover {
+    background-color: #04989E;
+    color: yellow;
+}
+
+.col-about-imgs {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.Rectangle {
+    position: relative;
+    width: 25rem;
+    opacity: 0.9;
+    margin: 1rem auto 1rem auto;
+}
+
+.vactor-2 {
+    position: absolute;
+    margin: 155px 0 0 -19px;
+}
+
+/* about first container end  */
+
+
+
+
+/* how help start  */
+.help-box{
+    margin-top: 2rem;
+}
+.help-vactor{
+  display: flex;
+  justify-content: center;
+}
+.help{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.detail-column{
+ display: flex;
+ justify-content: space-between ;
+}
+.first-img-vactor{
+  position: absolute;
+  margin-top: 11.5rem;
+  margin-left: -10px;
+
+}
+.first-img{
+  /* position: relative; */
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+.explore-services{
+    font-size: 1rem;
+    margin: 3rem 0 0 0;
+ }
+ .btn-color{
+    background-color: #00C9DA;
+    color: white;
+    border-radius: 20px;
+  }
+/* how help end  */
+
+
+
+/* services box start  */
+
+.box-about{
+    border: 10px solid  #04989E;
+    border-style:ridge;
+    margin-top: 150px;
+    background-color: #d3f1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+/* services box end  */
+
+
+
+/* we are here to help  */
+.box-we{
+    border:#FFD15C;
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .statement1{
+    display: flex;
+    margin-top: 5rem;
+  }
+  .reg-btn{
+    margin-top: 2rem;
+    /* display: flex; */
+  }
+  .all-element{
+    display: flex;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 600px) {
+      .all-element{
+       display: flex;
+       justify-content: end;
+      }
+      .statement1{
+        margin-top: 2rem;
+      }
+      .reg-btn{
+        margin-top: 1rem;
+        display: flex;
+      }
+    }
+    /* we are here to help end  */
+
+
+/* what out client say about us ? start  */
+.client-about{
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    /* height: 100vh; */
+  }
+ 
+.client{
+  display: flex;
+  justify-content: center;
+  margin: 6rem 0   2rem 0;
+
+}
+.client1{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 9rem   2rem 9rem;
+  text-align: center;
+}
+@media only screen and (max-width: 990px) {
+    .client1 {
+        margin: 1rem 3rem 2rem 3rem;
+       }
+     }
+.box-items{
+  width: 100%;
+  /* height: 340px; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+}
+.first-box{
+  margin-top: 5rem;
+
+}
+.vactor-yellow{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.client-name{
+  margin: 1rem;
+}
+.client-text{
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem 3rem 2rem 2rem;
+}
+.box-items2{
+  width: 100%;
+  /* height: 380px; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  border-bottom: 8px solid rgb(0, 201, 218);
+
+}
+.vactor-yellow-last{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 9rem;
+}
+@media only screen and (max-width: 990px) {
+  .vactor-yellow-last {
+    right: 1.5rem;
+     
+     }
+   }
+   /* what our client say about us ? end  */
+
+
+
+
+   /* contact form start  */
+.contact-us-now{
+    margin-top: 3rem;
+  
+  }
+  .contact-img{
+    display: flex;
+    justify-content: center;
+  
+  
+  }
+  
+  .Name{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #F4F4F4;
+    color: white;
+  
+  }
+  .email{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #F4F4F4;
+    color: white;
+  
+  
+  }
+  
+  .message{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #F4F4F4;
+    color: white;
+    height: 150px;
+  
+  
+  }
+  .submit{
+    margin: 3rem auto 3rem auto;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .submit-btn{
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color:skyblue;
+  }
+  .form-container{
+    background-color: #6eb7b9;
+    border: 3px solid #04989E;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+
+/* contact form end  */
+
+
+/* footer css start  */
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text{
+    font-weight: 700;
+}
+
+/* footer css end  */

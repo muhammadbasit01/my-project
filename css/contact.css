@@ -1,0 +1,151 @@
+/* body{
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+
+
+/* discount header start  */
+
+.discount-container{
+    background-color: #04989E;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+ /* discount header end  */
+
+
+
+
+/* navigation bar start  */
+
+
+.full-container-navbar{
+    margin: 1rem auto 1.5rem auto;
+}
+.navbar-css{
+    background-color:rgba(100, 134, 136, 0.253);
+
+}
+.logo{
+    height: 48.62px; width: 144px;
+
+}
+.nav-item-css{
+    margin-top: 1rem;
+
+}
+.nav-item{
+     margin: 0 3rem 0 1rem;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+ul li a:hover{
+    color: #04989E;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.button-book{
+    background-color: #04989E;
+    margin-right: 4rem;
+    width: 150px;
+    height: 44px;
+    border-radius: 20px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.button-book:hover{
+    background-color: #04989E;
+    border: 1px solid  #04989E;
+    
+}
+
+
+
+
+/* contact form start  */
+.contact-us-now{
+    margin-top: 3rem;
+  
+  }
+  .contact-img{
+    display: flex;
+    justify-content: center;
+  
+  
+  }
+  
+  .Name{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #F4F4F4;
+    color: white;
+  
+  }
+  .email{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #F4F4F4;
+    color: white;
+  
+  
+  }
+  
+  .message{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #F4F4F4;
+    color: white;
+    height: 150px;
+  
+  
+  }
+  .submit{
+    margin: 3rem auto 3rem auto;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .submit-btn{
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color:skyblue;
+  }
+  .form-container{
+    background-color: #5fbdc0;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    /* border: 3px solid #04989E; */
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+
+/* contact form end  */
+
+
+
+
+/* footer css start  */
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer css end  */
